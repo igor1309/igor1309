@@ -10,10 +10,11 @@
 
 ## About Me
 
-I'm an **iOS Tech Lead** at **Business Innovation Co**, working on the **iFora** project.  
-I focus on building scalable mobile architectures, mentoring teams, and integrating **AI-driven capabilities** into production-grade applications.
+I lead iOS development at a bank, build learning products for children, and use agents while studying for a second university degree. Through this work, I am developing an AI SDLC: how to take an idea through to a working result with agents, then keep improving it.
 
-Outside of my main work, I maintain several projects exploring how **AI orchestration**, **prompt engineering**, and **agentic systems** can evolve modern app-development practices.
+Requirements, specifications, and design decisions are kept independently of the code. This lets me revisit the architecture, change languages, and rebuild a project while preserving what I have learned about the problem. Architectural guardrails and reproducible checks allow multiple agents to work in parallel.
+
+The approach evolves with the projects. I compare models and harnesses on real tasks, develop evals, and examine decisions that did not work out. What helps in one project gets tried in others and incorporated into the shared process.
 
 ---
 
