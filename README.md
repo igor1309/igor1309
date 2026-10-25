@@ -1,7 +1,7 @@
 <a href="https://github.com/igor1309">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/banner-dark.png">
-    <img src="assets/profile/banner-light.png" width="100%" alt="Igor Malyarov — iOS Tech Lead, Swift engineer, building an AI SDLC in the open">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.png">
+    <img src="assets/profile/hero-light.png" width="100%" alt="Igor Malyarov — iOS Tech Lead, Swift engineer, building an AI SDLC in the open">
   </picture>
 </a>
 
