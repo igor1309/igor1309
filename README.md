@@ -1,10 +1,15 @@
-# Igor Malyarov
+<a href="https://github.com/igor1309">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.png">
+    <img src="assets/profile/hero-light.png" width="100%" alt="Igor Malyarov — iOS Tech Lead, Swift engineer, building an AI SDLC in the open">
+  </picture>
+</a>
 
-**iOS Tech Lead @ Business Innovation Co — iFora | Swift Engineer | Building Intelligent Systems**
-
-[![Blog](https://img.shields.io/badge/Blog-igor1309.dev-blue?style=flat-square&logo=safari)](http://igor1309.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-igor1309-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/igor1309/)
-[![GitHub](https://img.shields.io/badge/GitHub-igor1309-black?style=flat-square&logo=github)](https://github.com/igor1309)
+<p align="center">
+  <a href="http://igor1309.dev">Blog</a> ·
+  <a href="https://www.linkedin.com/in/igor1309/">LinkedIn</a> ·
+  <a href="https://t.me/igor1309">Telegram</a>
+</p>
 
 ---
 
@@ -22,24 +27,25 @@ The approach evolves with the projects. I compare models and harnesses on real t
 
 Projects built with AI coding agents, published from my private monorepo with their code and tests.
 
-**[RexLab](https://github.com/igor1309/rexlab)** — A dinosaur learning game for children ([play it](https://rexlab.enoa.ai))
-React, TypeScript and Vite, with behaviour specified first in Gherkin (87 feature files) and 130+ Vitest test files. Built with AI coding agents working from those specs and tests.
-
-<a href="https://rexlab.enoa.ai">
+<a href="https://github.com/igor1309/rexlab">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/rexlab/home-dark.webp">
-    <img src="assets/rexlab/home-light.webp" width="600" alt="RexLab's home screen with its dinosaur games">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/rexlab-dark.png">
+    <img src="assets/profile/rexlab-light.png" width="100%" alt="RexLab — a dinosaur learning game for children">
   </picture>
 </a>
 
-**[FolioTell](https://github.com/igor1309/foliotell)** — An offline iPhone app that reads Markdown and plain-text files aloud
-SwiftUI over Apple speech synthesis, with the playback logic in a separate library of pure reducers and effect handlers, 196 Swift Testing tests, and Maestro flows on the simulator. Built with AI coding agents working from specs and tests.
+**[RexLab](https://github.com/igor1309/rexlab)** · [play it](https://rexlab.enoa.ai) — React, TypeScript and Vite. Behaviour is specified first in Gherkin (87 feature files) and checked by 130+ Vitest test files. AI coding agents build from those specs and tests.
 
-<p>
-  <img src="assets/foliotell/reader.webp" width="200" alt="FolioTell reading a Markdown file">
-  <img src="assets/foliotell/playing.webp" width="200" alt="FolioTell playing it aloud">
-  <img src="assets/foliotell/ru-dark.webp" width="200" alt="FolioTell reading a Russian poem in dark mode">
-</p>
+<a href="https://github.com/igor1309/foliotell">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/foliotell-dark.png">
+    <img src="assets/profile/foliotell-light.png" width="100%" alt="FolioTell — an offline iPhone app that reads Markdown and plain text aloud">
+  </picture>
+</a>
+
+**[FolioTell](https://github.com/igor1309/foliotell)** · [site](https://foliotell.pages.dev) — SwiftUI over Apple speech synthesis. The playback logic lives in a separate library of pure reducers and effect handlers, with 196 Swift Testing tests and Maestro flows on the simulator.
+
+**Next up:** Audelin.
 
 ---
 
