@@ -18,6 +18,31 @@ The approach evolves with the projects. I compare models and harnesses on real t
 
 ---
 
+## Showcase
+
+Projects built with AI coding agents, published from my private monorepo with their code and tests.
+
+**[RexLab](https://github.com/igor1309/rexlab)** — A dinosaur learning game for children ([play it](https://rexlab.enoa.ai))
+React, TypeScript and Vite, with behaviour specified first in Gherkin (87 feature files) and 130+ Vitest test files. Built with AI coding agents working from those specs and tests.
+
+<a href="https://rexlab.enoa.ai">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rexlab/home-dark.webp">
+    <img src="assets/rexlab/home-light.webp" width="600" alt="RexLab's home screen with its dinosaur games">
+  </picture>
+</a>
+
+**[FolioTell](https://github.com/igor1309/foliotell)** — An offline iPhone app that reads Markdown and plain-text files aloud
+SwiftUI over Apple speech synthesis, with the playback logic in a separate library of pure reducers and effect handlers, 196 Swift Testing tests, and Maestro flows on the simulator. Built with AI coding agents working from specs and tests.
+
+<p>
+  <img src="assets/foliotell/reader.webp" width="200" alt="FolioTell reading a Markdown file">
+  <img src="assets/foliotell/playing.webp" width="200" alt="FolioTell playing it aloud">
+  <img src="assets/foliotell/ru-dark.webp" width="200" alt="FolioTell reading a Russian poem in dark mode">
+</p>
+
+---
+
 ## Interests & Focus
 
 - 🧩 **System architecture** — clean modular boundaries, async pipelines  
@@ -68,12 +93,6 @@ A comprehensive showcase of hyper-modular architecture implementing SOLID princi
 - **CI/CD pipeline** — automated testing and deployment via GitHub Actions
 
 This project demonstrates how architectural discipline, proper abstraction boundaries, and TDD methodology combine to create maintainable, testable, and scalable iOS applications.
-
-**[FolioTell](https://github.com/igor1309/foliotell)** — An offline iPhone app that reads Markdown and plain-text files aloud
-SwiftUI over Apple speech synthesis, with the playback logic in a separate library of pure reducers and effect handlers, 196 Swift Testing tests, and Maestro flows on the simulator. Built with AI coding agents working from specs and tests.
-
-**[RexLab](https://github.com/igor1309/rexlab)** — A dinosaur learning game for children ([play it](https://rexlab.enoa.ai))
-React, TypeScript and Vite, with behaviour specified first in Gherkin (87 feature files) and 130+ Vitest test files. Built with AI coding agents working from those specs and tests.
 
 ---
 
