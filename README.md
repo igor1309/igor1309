@@ -22,6 +22,14 @@ The approach evolves with the projects. I compare models and harnesses on real t
 
 Projects built with AI coding agents, published from my private monorepo with their code and tests.
 
+```mermaid
+flowchart TD
+  mono[("private monorepo<br/>specs, code, tests, agent settings")] --> pick["each project's showcase settings<br/>pick the files to publish, add its public README"]
+  pick --> scan["scan for secrets<br/>and private references"]
+  scan --> check["build and test the export<br/>on its own, outside the monorepo"]
+  check --> repo(["public repo<br/>code, tests, README, screenshots"])
+```
+
 **[RexLab](https://github.com/igor1309/rexlab)** — A dinosaur learning game for children ([play it](https://rexlab.enoa.ai))\
 React, TypeScript and Vite, with behaviour specified first in Gherkin (87 feature files) and 130+ Vitest test files. Built with AI coding agents working from those specs and tests.
 
