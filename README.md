@@ -41,11 +41,11 @@ SwiftUI over Apple speech synthesis, with the playback logic in a separate libra
   <img src="assets/foliotell/ru-dark.webp" width="200" alt="FolioTell reading a Russian poem in dark mode">
 </p>
 
-**[Agister](https://github.com/igor1309/agister)** — A command-line runner for AI-agent work defined in settings files\
-Go. Agents, processes and workflows are settings that compose; every run is resolved before it starts, held to its limits and budget, and recorded whole. Pages: [how a run executes](https://igor1309.dev/agister/run-architecture/) and [how settings resolve](https://igor1309.dev/agister/settings-architecture/).
+**[Agister](https://github.com/igor1309/agister)** — A Go command-line runner for AI-agent work defined in settings files\
+Agents, processes and workflows are settings that compose; every run is resolved before it starts, held to its limits and budget, and recorded whole. Pages: [how a run executes](https://igor1309.dev/agister/run-architecture/) and [how settings resolve](https://igor1309.dev/agister/settings-architecture/).
 
 ```mermaid
-flowchart LR
+flowchart TD
   request(["agister run"]) --> resolve["settings/resolve<br/>definitions or a refusal"]
   resolve --> workflow["core/workflow<br/>items in order"]
   workflow --> aCall["core/call · admit<br/>hold, limits, budget"]
