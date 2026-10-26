@@ -22,7 +22,7 @@ The approach evolves with the projects. I compare models and harnesses on real t
 
 Projects built with AI coding agents, published from my private monorepo with their code and tests.
 
-**[RexLab](https://github.com/igor1309/rexlab)** — A dinosaur learning game for children ([play it](https://rexlab.enoa.ai))
+**[RexLab](https://github.com/igor1309/rexlab)** — A dinosaur learning game for children ([play it](https://rexlab.enoa.ai))\
 React, TypeScript and Vite, with behaviour specified first in Gherkin (87 feature files) and 130+ Vitest test files. Built with AI coding agents working from those specs and tests.
 
 <a href="https://rexlab.enoa.ai">
@@ -32,7 +32,7 @@ React, TypeScript and Vite, with behaviour specified first in Gherkin (87 featur
   </picture>
 </a>
 
-**[FolioTell](https://github.com/igor1309/foliotell)** — An offline iPhone app that reads Markdown and plain-text files aloud
+**[FolioTell](https://github.com/igor1309/foliotell)** — An offline iPhone app that reads Markdown and plain-text files aloud\
 SwiftUI over Apple speech synthesis, with the playback logic in a separate library of pure reducers and effect handlers, 196 Swift Testing tests, and Maestro flows on the simulator. Built with AI coding agents working from specs and tests.
 
 <p>
@@ -41,7 +41,7 @@ SwiftUI over Apple speech synthesis, with the playback logic in a separate libra
   <img src="assets/foliotell/ru-dark.webp" width="200" alt="FolioTell reading a Russian poem in dark mode">
 </p>
 
-**[Agister](https://github.com/igor1309/agister)** — A command-line runner for AI-agent work defined in settings files
+**[Agister](https://github.com/igor1309/agister)** — A command-line runner for AI-agent work defined in settings files\
 Go. Agents, processes and workflows are settings that compose; every run is resolved before it starts, held to its limits and budget, and recorded whole. Pages: [how a run executes](https://igor1309.dev/agister/run-architecture/) and [how settings resolve](https://igor1309.dev/agister/settings-architecture/).
 
 ```mermaid
@@ -55,10 +55,10 @@ flowchart LR
   workflow --> runstore[("runstore<br/>record.json · events.jsonl")]
 ```
 
-**[Agonara](https://github.com/igor1309/agonara)** — A bring-your-own-agent environment for learning programs ([live instance](https://agonara.enoa.ai/learn))
+**[Agonara](https://github.com/igor1309/agonara)** — A bring-your-own-agent environment for learning programs ([live instance](https://agonara.enoa.ai/learn))\
 A curator builds a program of topics, concepts, materials and checks; students read it, answer and see where they are weak. Both point the agent they already use at the same HTTP API, through `/learn` and `/admin` web UIs and an operator CLI. Node.js and SQLite.
 
-<img src="assets/agonara/learn-student-navigation.webp" width="600" alt="Agonara's student navigation: topics, a concept and its material open in the reader">
+<img src="assets/agonara/learn-quick-check.webp" width="600" alt="An Agonara Quick Check: a student answers a question and sees the result">
 
 ---
 
