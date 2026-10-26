@@ -64,7 +64,7 @@ flowchart TD
 ```
 
 **[Agonara](https://github.com/igor1309/agonara)** — A bring-your-own-agent environment for learning programs ([live instance](https://agonara.enoa.ai/learn))\
-A curator builds a program of topics, concepts, materials and checks; students read it, answer and see where they are weak. Both point the agent they already use at the same HTTP API, through `/learn` and `/admin` web UIs and an operator CLI. Node.js and SQLite.
+A curator builds a program of topics, concepts, materials and checks; students read it, answer and see where they are weak. Both point the agent they already use at the same HTTP API that serves the `/learn` and `/admin` web UIs. Node.js and SQLite.
 
 <img src="assets/agonara/learn-quick-check.webp" width="600" alt="An Agonara Quick Check: a student answers a question and sees the result">
 
