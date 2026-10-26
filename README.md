@@ -41,6 +41,25 @@ SwiftUI over Apple speech synthesis, with the playback logic in a separate libra
   <img src="assets/foliotell/ru-dark.webp" width="200" alt="FolioTell reading a Russian poem in dark mode">
 </p>
 
+**[Agister](https://github.com/igor1309/agister)** — A command-line runner for AI-agent work defined in settings files
+Go. Agents, processes and workflows are settings that compose; every run is resolved before it starts, held to its limits and budget, and recorded whole. Pages: [how a run executes](https://igor1309.dev/agister/run-architecture/) and [how settings resolve](https://igor1309.dev/agister/settings-architecture/).
+
+```mermaid
+flowchart LR
+  request(["agister run"]) --> resolve["settings/resolve<br/>definitions or a refusal"]
+  resolve --> workflow["core/workflow<br/>items in order"]
+  workflow --> aCall["core/call · admit<br/>hold, limits, budget"]
+  aCall --> wrappers["runtime wrappers<br/>bash · claude-code · codex"]
+  wrappers --> supervisor["supervisor"]
+  supervisor --> program(["the agent's program"])
+  workflow --> runstore[("runstore<br/>record.json · events.jsonl")]
+```
+
+**[Agonara](https://github.com/igor1309/agonara)** — A bring-your-own-agent environment for learning programs ([live instance](https://agonara.enoa.ai/learn))
+A curator builds a program of topics, concepts, materials and checks; students read it, answer and see where they are weak. Both point the agent they already use at the same HTTP API, through `/learn` and `/admin` web UIs and an operator CLI. Node.js and SQLite.
+
+<img src="assets/agonara/learn-student-navigation.webp" width="600" alt="Agonara's student navigation: topics, a concept and its material open in the reader">
+
 ---
 
 ## Interests & Focus
