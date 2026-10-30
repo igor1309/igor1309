@@ -20,16 +20,6 @@ The approach evolves with the projects. I compare models and harnesses on real t
 
 ## Showcase
 
-Projects built with AI coding agents, published from my private monorepo with their code and tests.
-
-```mermaid
-flowchart TD
-  mono[("private monorepo<br/>specs, code, tests, agent settings")] --> pick["each project's showcase settings<br/>pick the files to publish, add its public README"]
-  pick --> scan["scan for secrets<br/>and private references"]
-  scan --> check["build and test the export<br/>on its own, outside the monorepo"]
-  check --> repo(["public repo<br/>code, tests, README, screenshots"])
-```
-
 **[RexLab](https://github.com/igor1309/rexlab)** — A dinosaur learning game for children ([play it](https://rexlab.enoa.ai))\
 React, TypeScript and Vite, with behaviour specified first in Gherkin (87 feature files) and 130+ Vitest test files. Built with AI coding agents working from those specs and tests.
 
@@ -67,6 +57,11 @@ flowchart TD
 A curator builds a program of topics, concepts, materials and checks; students read it, answer and see where they are weak. Both point the agent they already use at the same HTTP API that serves the `/learn` and `/admin` web UIs. Node.js and SQLite.
 
 <img src="assets/agonara/learn-quick-check.webp" width="600" alt="An Agonara Quick Check: a student answers a question and sees the result">
+
+**[Mizan BLE](https://github.com/igor1309/mizan-ble)** — An iPad and an iPhone agree a payment over Bluetooth LE, a proof of concept\
+One iOS app with two modes: the iPad host locks an amount and advertises it, the iPhone client picks the nearest till by signal strength, and the payer confirms or declines over a link encrypted per session. The payment is mocked. SwiftUI, Core Bluetooth and CryptoKit, with each flow a pure reducer, 387 Swift Testing tests, and Maestro lanes against a scripted radio. Built with AI coding agents working from specs and tests.
+
+<img src="assets/mizan-ble/host-and-client.webp" width="600" alt="The iPad host advertising an amount with its countdown, and the iPhone client showing the same amount to confirm or decline">
 
 ---
 
