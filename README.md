@@ -58,7 +58,7 @@ A curator builds a program of topics, concepts, materials and checks; students r
 
 <img src="assets/agonara/learn-quick-check.webp" width="600" alt="An Agonara Quick Check: a student answers a question and sees the result">
 
-**[Mizan BLE](https://github.com/igor1309/mizan-ble)** — An iPad and an iPhone agree a payment over Bluetooth LE, a proof of concept\
+**[Mizan BLE](https://github.com/igor1309/mizan-ble)** — An iPad and an iPhone agree a payment over Bluetooth LE, a proof of concept ([how it works](https://igor1309.dev/articles/2026/2026-10-18-mizan-ble-a-payment-between-an-ipad-and-an-iphone/))\
 One iOS app with two modes: the iPad host locks an amount and advertises it, the iPhone client picks the nearest till by signal strength, and the payer confirms or declines over a link encrypted per session. The payment is mocked. SwiftUI, Core Bluetooth and CryptoKit, with each flow a pure reducer, 387 Swift Testing tests, and Maestro lanes against a scripted radio. Built with AI coding agents working from specs and tests.
 
 <img src="assets/mizan-ble/host-and-client.webp" width="600" alt="The iPad host advertising an amount with its countdown, and the iPhone client showing the same amount to confirm or decline">
