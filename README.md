@@ -63,6 +63,11 @@ One iOS app with two modes: the iPad host locks an amount and advertises it, the
 
 <img src="assets/mizan-ble/host-and-client.webp" width="600" alt="The iPad host advertising an amount with its countdown, and the iPhone client showing the same amount to confirm or decline">
 
+**[Audelin](https://github.com/igor1309/audelin)** — A native macOS call recorder with a floating, selectable live transcript ([how the transcript stays readable](https://igor1309.dev/articles/2026/2026-11-07-audelin-reading-while-the-words-arrive/))\
+Records both sides of a call as separate tracks and shows a live transcript of Russian conversations with English terms; audio and speech recognition run locally on the Mac. A late panel update was cut [from 343 ms to about 1 ms](https://igor1309.dev/articles/2026/2026-11-07-audelin-a-millisecond-to-update-the-transcript/). Built with AI coding agents working from specs and tests.
+
+<img src="assets/audelin/live.webp" width="600" alt="Audelin's floating live transcript with speaker symbols and timestamps">
+
 ---
 
 ## Interests & Focus
