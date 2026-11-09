@@ -58,15 +58,15 @@ A curator builds a program of topics, concepts, materials and checks; students r
 
 <img src="assets/agonara/learn-quick-check.webp" width="600" alt="An Agonara Quick Check: a student answers a question and sees the result">
 
-**[Mizan BLE](https://github.com/igor1309/mizan-ble)** — An iPad and an iPhone agree a payment over Bluetooth LE, a proof of concept ([how it works](https://igor1309.dev/articles/2026/2026-10-18-mizan-ble-a-payment-between-an-ipad-and-an-iphone/))\
-One iOS app with two modes: the iPad host locks an amount and advertises it, the iPhone client picks the nearest till by signal strength, and the payer confirms or declines over a link encrypted per session. The payment is mocked. SwiftUI, Core Bluetooth and CryptoKit, with each flow a pure reducer, 387 Swift Testing tests, and Maestro lanes against a scripted radio. Built with AI coding agents working from specs and tests.
-
-<img src="assets/mizan-ble/host-and-client.webp" width="600" alt="The iPad host advertising an amount with its countdown, and the iPhone client showing the same amount to confirm or decline">
-
 **[Audelin](https://github.com/igor1309/audelin)** — A native macOS call recorder with a floating, selectable live transcript ([how the transcript stays readable](https://igor1309.dev/articles/2026/2026-11-07-audelin-reading-while-the-words-arrive/))\
 Records both sides of a call as separate tracks and shows a live transcript of Russian conversations with English terms; audio and speech recognition run locally on the Mac. A late panel update was cut [from 343 ms to about 1 ms](https://igor1309.dev/articles/2026/2026-11-07-audelin-a-millisecond-to-update-the-transcript/). Built with AI coding agents working from specs and tests.
 
 <img src="assets/audelin/live.webp" width="600" alt="Audelin's floating live transcript with speaker symbols and timestamps">
+
+**[Mizan BLE](https://github.com/igor1309/mizan-ble)** — An iPad and an iPhone agree a payment over Bluetooth LE, a proof of concept ([how it works](https://igor1309.dev/articles/2026/2026-10-18-mizan-ble-a-payment-between-an-ipad-and-an-iphone/))\
+One iOS app with two modes: the iPad host locks an amount and advertises it, the iPhone client picks the nearest till by signal strength, and the payer confirms or declines over a link encrypted per session. The payment is mocked. SwiftUI, Core Bluetooth and CryptoKit, with each flow a pure reducer, 387 Swift Testing tests, and Maestro lanes against a scripted radio. Built with AI coding agents working from specs and tests.
+
+<img src="assets/mizan-ble/host-and-client.webp" width="600" alt="The iPad host advertising an amount with its countdown, and the iPhone client showing the same amount to confirm or decline">
 
 ---
 
